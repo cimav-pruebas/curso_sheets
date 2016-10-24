@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac541a2e-9034-4461-9015-89977f02b4ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../curso_sheets/curso2.html" />
+    <list default="true" id="ac541a2e-9034-4461-9015-89977f02b4ba" name="Default" comment="arranque">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../curso_sheets/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../curso_sheets/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../curso_sheets/css/curso.css" afterPath="$PROJECT_DIR$/../curso_sheets/css/curso.css" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="curso2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../curso_sheets/curso2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,8 +41,8 @@
       <file leaf-file-name="curso.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../curso_sheets/css/curso.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -299,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1476895693363</updated>
       <workItem from="1476895694460" duration="5599000" />
-      <workItem from="1477329258412" duration="4695000" />
+      <workItem from="1477329258412" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1477330628367</created>
@@ -308,11 +306,25 @@
       <option name="project" value="LOCAL" />
       <updated>1477330628367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arranque">
+      <created>1477343968027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477343968027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="avanza">
+      <created>1477344683872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477344683872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10294000" />
+    <option name="totallyTimeSpent" value="11041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="23" width="1957" height="1407" extended-state="0" />
@@ -349,7 +361,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="arranque" />
+    <MESSAGE value="avanza" />
+    <option name="LAST_COMMIT_MESSAGE" value="avanza" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -440,18 +454,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../curso_sheets/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../curso_sheets/css/curso.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../curso_sheets/curso2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
