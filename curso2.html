@@ -21,7 +21,7 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
           type="text/css">
 
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
@@ -56,11 +56,17 @@
         <img style='padding-top: 20px;' class="img-responsive img-centered" src="img/header-sheet.png" alt="">
     </div>
     <div class="container">
+            
+    
+
+
         <div class="row">
+
 
             <div class="bs-example" data-example-id="collapse-accordion">
 
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
                     <h3 class="tema" >Basics</h3>
 
                     <!-- Uno -->
@@ -73,10 +79,9 @@
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingOne">
                             <div class="panel-body">
-
                                 <!-- start -->
                                 <div class="content_left clearfix">
                                     <h1>Open Google Docs Spreadsheet Online</h1>
@@ -89,17 +94,17 @@
                         </div>
                     </div>
 
-                    <!-- Dos -->
+                    <!-- Layout -->
                     <div class="panel panel-info">
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
                                    aria-expanded="true" aria-controls="collapseOne">
                                     Layout
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel"
+                        <div id="collapseTwo" class="panel-collapse collapse collapse" role="tabpanel"
                              aria-labelledby="headingTwo">
                             <div class="panel-body">
 
@@ -116,16 +121,17 @@
                     </div> <!-- end panel -->
 
                     <!-- Create -->
+
                     <div class="panel panel-info">
                         <div class="panel-heading" role="tab" id="headingCreate">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseCreate"
+                                <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseCreate"
                                    aria-expanded="true" aria-controls="collapseCreate">
                                     Create
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseCreate" class="panel-collapse collapse in" role="tabpanel"
+                        <div id="collapseCreate" class="panel-collapse collapse collapse" role="tabpanel"
                              aria-labelledby="headingCreate">
                             <div class="panel-body">
 
@@ -140,14 +146,339 @@
                             </div>
                         </div>
                     </div> <!-- end panel -->
+                      <!-- Cell -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingCell">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseCell"
+                                   aria-expanded="true" aria-controls="collapseCell">
+                                    Cell
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseCell" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingCreate">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                               <div class="content_left clearfix">
+         
+                                    <p>What is a cell in Google Docs Spreadsheet?</p>
+                                    <h2>Explanation</h2>    <p>
+                                        Cell is a rectangular box used to enter the data. The intersection point of row and column is called as Cell. Use the mouse pointer to select a cell and enter data. Selected cell will be highlighted as given in the image below.<br><img alt="cell google spreadsheet" src="./images/cell-google-spreadsheet.jpg">   </p>
+                                <!-- end -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Row -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingRow">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseRow"
+                                   aria-expanded="true" aria-controls="collapseRow">
+                                    Row
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseRow" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingCreate">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+         
+                                        <h1>Row in Google Docs Spreadsheet</h1>
+                                        <p>What is a row in Google Docs Spreadsheet?</p>
+                                        <h2>Explanation</h2>    
+                                        <p>
+                                        Cells arranged in the horizontal direction are called as Row.<br>Rows are identified by numbers from 1, 2, 3 etc., in the row header.<br>In the below image, <b>Row 4</b> is selected.<br><img alt="row google spreadsheet" src="./images/row-google-spreadsheet.jpg"><br>  </p>
+       
+    
+                                      </div>
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Reference -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingRow">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseReference"
+                                   aria-expanded="true" aria-controls="collapseReference">
+                                    Cell Reference
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseReference" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingReference">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+         
+                                     <h1>Cell Reference in Google Docs Spreadsheet</h1>
+    
+                                    <p>How to refer a cell in Google Docs spreadsheet?</p>
+                                     <h2>Explanation</h2>    
+                                     <p>
+                                        Cell Reference helps to identify the cell position. Cell Reference is identified with column letter and row number. It is mainly used for referring a cell. While listing the cell reference, Column letter should always come first followed by the row number.<br><b>Example: B6<br></b><img alt="cell reference google spreadsheet" src="./images/cell-reference-google-spreadsheet.jpg">    </p>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Colummn -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingColumn">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseColumn"
+                                   aria-expanded="true" aria-controls="collapseColumn">
+                                    Column
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseColumn" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingColumn">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+    
+                                        <h1>Column in Google Docs Spreadsheet</h1>
+   
+                                        <p>What is a column in Google Docs Spreadsheet?</p>
+                                        <h2>Explanation</h2>    <p>
+                                        Cells arranged in vertical direction are called as Column. Columns are identified by the alphabets from A to Z in the column header.<br>In the below image, <b>Column B</b> is selected.<br><img alt="column google spreadsheet" src="./images/column-google-spreadsheet.jpg"><br>  </p>
+                                
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
 
                 </div>
 
             </div>
 
+
         </div> <!-- row -->
+
+        <div class="bs-example" data-example-id="collapse-accordion">
+
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <h3 class="tema" >Storing</h3>
+
+                    <!-- Rename -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingRename">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseRename"
+                                   aria-expanded="true" aria-controls="collapseRename">
+                                    Rename
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseRename" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingRename">
+                            <div class="panel-body">
+                                <!-- start -->
+                                <div class="content_left clearfix">
+                                    <h1>Open Google Docs Spreadsheet Online</h1>
+                                    <h2>Explanation</h2>    <p>
+                                    To open new spreadsheet in Google Docs we have two options<br><b>Option 1</b>:<br><b>Step 1:</b> Search <b>Google Docs Spreadsheet</b> in the browser.<br><b>Step 2:</b> It will provide the list of search results. Click on the first link (Google Spreadsheet - Google Docs) or directly search using the URL <b>https://docs.google.com/spreadsheet/</b><br><img alt="open google docs speadsheet" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/open-google-docs-speadsheet.jpg"><br><b>Step 3:</b> If the Gmail account is already logged in, it will directly take us to the Google Docs Spreadsheet. If not, log-in with your Gmail account to open the new Google Docs Spreadsheet.<br><b>Step 4:</b> The new spreadsheet file will be created as given in the image below,<br><img alt="open google spreadsheet" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/open-google-spreadsheet.jpg"><br><b>Option 2</b>:<br><b>Step 1:</b> In the browser, search as <b>Google Docs</b><br><b>Step 2:</b> From the list of the search result, click the first link (Google Docs) or directly type using the link <b>https://docs.google.com/</b><br><img alt="open google docs" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/open-google-docs.jpg"><br><b>Step 3:</b> Log-in into the Gmail account to open a new Google Docs Spreadsheet. If the Gmail account is logged in then the Google Docs Spreadsheet will be opened automatically.<br><b>Step 4:</b> In the Google Drive, click <b>CREATE</b> → <b>Spreadsheet</b><br><img alt="open google spreadsheet1" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/open-google-spreadsheet1.jpg"><br><b>Step 5:</b> The new Google Docs Spreadsheet will be created as given in the below image.<br><img alt="open google spreadsheet" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/open-google-spreadsheet.jpg"><br>    </p>
+                                </div>
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Save -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingSave">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSave"
+                                   aria-expanded="true" aria-controls="collapseSave">
+                                    Save
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSave" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingSave">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                <div class="content_left clearfix">
+                                    <h1>Google Docs Spreadsheet Layout</h1>
+                                    <h2>Explanation</h2>    <p>
+                                    Layout is the over all page view of the window.<br>In Google Docs Spreadsheet, layout is spilt into following formats.<br><b>Spreadsheet file name:</b> Given name of the Spreadsheet file will be displayed here.<br><img alt="google spreadsheet name" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-spreadsheet-name.jpg"><br><b>Sheets home:</b> Sheets home option is present in the left side of the menu bar.<br><img alt="google sheets home" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-sheets-home.jpg"><br><b>Menu Bar:</b> Menu bar is the horizontal bar that acts as the common housing supply for the window. It is located in the top of the spreadsheet file. It includes the following options like File, Edit, View, Insert, Format, Data, Tools.<br><img alt="google spreadsheet menubar" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-spreadsheet-menubar.jpg"><br><b>Tool Bar:</b> Tool bar is right below the menu bar.<br>It includes the set of options to modify the file in the user defined format. Standard option in the tool bar are Print, Undo, Redo, Font, Filter, Bold, Italics, Underline and Alignment options.<br><img alt="google spreadsheet toolbar" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-spreadsheet-toolbar.jpg"><br><b>Formula Bar:</b> Formula Bar has been labelled with the symbol (fx)<br>It is present below the Tool Bar and mainly used to edit or enter the formula.<br><img alt="google spreadsheet formulabar" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-spreadsheet-formulabar.jpg"><br><b>Working Area:</b> Working area is the place where the data entered and calculation are done. The rectangular box in the working area is called as Cell.<br>Selected cell is called as <b>Active cell</b>, where the text or numbers can be entered to do calculation.<br><b>Column header</b> of the working area is named with the alphabet A,B,C...<br><b>Row header</b> of the working area is named with the numbers 1,2,3...<br><img alt="google spreadsheet working area" src="https://www.shorttutorials.com/google-docs-spreadsheet/images/google-spreadsheet-working-area.jpg"> </p>
+                                </div>
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+
+                    <!-- Make A Copy  -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingCopy">
+                            <h4 class="panel-title">
+                                <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseCopy"
+                                   aria-expanded="true" aria-controls="collapseCopy">
+                                    Make A Copy 
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseCopy" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingCopy">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                <div class="content_left clearfix">
+                                    <h1>Create a New Google Spreadsheet</h1>
+                                    <h2>Explanation</h2>    <p>
+                                    To open a new file in the Google Docs Spreadsheet use the following options.<br><b>Option 1:</b> In the Menu bar, click <b>File</b> → <b>New</b> → <b>Spreadsheet</b><br><img alt="create new google spreadsheet" src="./images/create-new-google-spreadsheet.jpg"><br><b>Option 2:</b> Type "<b>https://docs.google.com/spreadsheets/</b>" in the address bar. In the <b>Sheets home</b> page, click on the plus icon to <b>Create new spreadsheet</b> file.<br><img alt="create new google spreadsheet1" src="./images/create-new-google-spreadsheet1.jpg"><br>New spreadsheet file will be created as given in the image below.<br><img alt="open google spreadsheet" src="./images/open-google-spreadsheet.jpg"><br>    </p>
+                                </div>
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+                      <!-- Move To Folder -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingMove">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseMove"
+                                   aria-expanded="true" aria-controls="collapseMove">
+                                    Move To Folder
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseCell" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingMove">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                               <div class="content_left clearfix">
+         
+                                    <p>What is a cell in Google Docs Spreadsheet?</p>
+                                    <h2>Explanation</h2>    <p>
+                                        Cell is a rectangular box used to enter the data. The intersection point of row and column is called as Cell. Use the mouse pointer to select a cell and enter data. Selected cell will be highlighted as given in the image below.<br><img alt="cell google spreadsheet" src="./images/cell-google-spreadsheet.jpg">   </p>
+                                <!-- end -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Move To Trash -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingTrash">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTrash"
+                                   aria-expanded="true" aria-controls="collapseTrash">
+                                    Move To Trash
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTrash" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingTrash">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+         
+                                        <h1>Row in Google Docs Spreadsheet</h1>
+                                        <p>What is a row in Google Docs Spreadsheet?</p>
+                                        <h2>Explanation</h2>    
+                                        <p>
+                                        Cells arranged in the horizontal direction are called as Row.<br>Rows are identified by numbers from 1, 2, 3 etc., in the row header.<br>In the below image, <b>Row 4</b> is selected.<br><img alt="row google spreadsheet" src="./images/row-google-spreadsheet.jpg"><br>  </p>
+       
+    
+                                      </div>
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Save / Download -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingDownload">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseDownload"
+                                   aria-expanded="true" aria-controls="collapseDownload">
+                                    Save / Download
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseDownload" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingDownload">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+         
+                                     <h1>Cell Reference in Google Docs Spreadsheet</h1>
+    
+                                    <p>How to refer a cell in Google Docs spreadsheet?</p>
+                                     <h2>Explanation</h2>    
+                                     <p>
+                                        Cell Reference helps to identify the cell position. Cell Reference is identified with column letter and row number. It is mainly used for referring a cell. While listing the cell reference, Column letter should always come first followed by the row number.<br><b>Example: B6<br></b><img alt="cell reference google spreadsheet" src="./images/cell-reference-google-spreadsheet.jpg">    </p>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                        </div>
+                    </div> <!-- end panel -->
+                    <!-- Print-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="headingPrint">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePrint"
+                                   aria-expanded="true" aria-controls="collapsePrint">
+                                    Print
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapsePrint" class="panel-collapse collapse collapse" role="tabpanel"
+                             aria-labelledby="headingPrint">
+                            <div class="panel-body">
+
+                                <!-- start -->
+                                    <div class="content_left clearfix">
+    
+                                        <h1>Column in Google Docs Spreadsheet</h1>
+   
+                                        <p>What is a column in Google Docs Spreadsheet?</p>
+                                        <h2>Explanation</h2>    <p>
+                                        Cells arranged in vertical direction are called as Column. Columns are identified by the alphabets from A to Z in the column header.<br>In the below image, <b>Column B</b> is selected.<br><img alt="column google spreadsheet" src="./images/column-google-spreadsheet.jpg"><br>  </p>
+                                
+                                <!-- end -->
+
+                            </div>
+                        </div>
+                    </div> <!-- end panel -->
+
+
+                </div>
+
+            </div>
+
+
+        </div> <!-- row -->
+        
+        
+
+
+
     </div>
+
 </section>
+
+
+
 
 
 </body>
