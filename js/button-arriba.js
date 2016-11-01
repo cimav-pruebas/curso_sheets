@@ -14,4 +14,19 @@ $(document).ready(function(){
 		}
 	});
 
+
+  var $active = false;
+
+  $('.collapse-init').on('click', function() {
+    if(!$active) {
+      $active = true;
+      $('.panel-title > a').attr('data-toggle', 'collapse');
+      $('.panel-collapse').collapse('hide');
+      $(this).html('Click');
+      $active = false;
+    } 
+
+  
 });
+});
+
